@@ -10,6 +10,9 @@ Add this line to your application's Gemfile:
 
 ```ruby
 gem 'picpay'
+
+# or
+gem 'picpay', :git => 'https://github.com/gilcierweb/picpay'
 ```
 
 And then execute:
@@ -22,7 +25,27 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+```ruby
+picpay_token = ''
+seller_token = ''
+
+payment_request = Picpay.new()
+```
+
+## Doação / Donate
+Doar com PagSeguro 5,00, 10,00, 15,00, 20,00, 30,00, 40,00 ou outro valor
+https://pag.ae/bmgSGGm
+
+[![](https://raw.github.com/gilcierweb/shopfacil/master/examples/image/clique-para-doar-qualquer-quantia.jpg)](https://pag.ae/bmgSGGm)
+
+## Consultoria / consulting
+
+http://gilcierweb.com.br
+
+## Site
+
+http://gilcierweb.com.br
 
 ## Development
 
