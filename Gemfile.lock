@@ -30,7 +30,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.17)
-  faraday
+  faraday (~> 0.15.4)
   picpay!
   rake (~> 10.0)
   rspec (~> 3.0)

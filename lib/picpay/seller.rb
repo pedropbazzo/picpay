@@ -2,16 +2,9 @@ module Picpay
   
   module Seller
     
-    attr_accessor :api_url, :picpay_token, :seller_token
+    API_ENDPOINT = 'https://appws.picpay.com/ecommerce/public/payments'
     
-    def data_seller
-      seller = {
-          "apiUrl": api_url,
-          "picpayToken": picpay_token,
-          "sellerToken": seller_token
-      }
-      seller
-    end
+    attr_accessor :api_url, :picpay_token, :seller_token
     
   end
 
