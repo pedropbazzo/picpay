@@ -7,10 +7,20 @@ RSpec.describe Picpay do
     picpay_token = '5b008cef7f321d00ef2367b2'
     seller_token = '4ef4edbd-5cda-42da-860b-0e8d7b90c784'
     api_url = 'https://appws.picpay.com/ecommerce/public/payments' # optional
-  
+    
     picpay = Picpay::Picpay.new(picpay_token, seller_token)
-  
+    
     expect(picpay).to be_truthy
+  end
+  
+  it "have attributes picpay_token, seller_token and api_url in picpay" do
+    picpay_token = '5b008cef7f321d00ef2367b2'
+    seller_token = '4ef4edbd-5cda-42da-860b-0e8d7b90c784'
+    api_url = 'https://appws.picpay.com/ecommerce/public/payments' # optional
+    
+    picpay = Picpay::Picpay.new(picpay_token, seller_token)
+    
+    expect(picpay).to have_attributes(picpay_token: picpay_token, seller_token: seller_token, api_url: api_url)
   end
 
 end
