@@ -54,16 +54,33 @@ picpay.expires_at = '11/11/2022' # optional
 
 # Payment Request
 payment_request = picpay.payments()
+payment_request.status
+# => 200
+payment_request.headers
+# => {"server"=>"sushi.com", "content-type"=>"application/json; charset=utf-8"...
+payment_request.body
+# => "{referenceId: "102030"...
 
 reference_id = '102030'
 authorization_id = '555008cef7f321d00ef236333'
 
 #Payment Cancellation 
 payment_cancellation = picpay.payments_cancellations(reference_id, authorization_id)
+payment_request.status
+# => 200
+payment_request.headers
+# => {"server"=>"sushi.com", "content-type"=>"application/json; charset=utf-8"...
+payment_request.body
+# => "{referenceId: "102030"...
 
 # Payment Status
 payment_status = picpay.payments_status(reference_id)
-
+payment_request.status
+# => 200
+payment_request.headers
+# => {"server"=>"sushi.com", "content-type"=>"application/json; charset=utf-8"...
+payment_request.body
+# => "{referenceId: "102030"...
 ```
 
 ## Example of Payment Request (JSON)
