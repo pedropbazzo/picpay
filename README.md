@@ -66,20 +66,20 @@ authorization_id = '555008cef7f321d00ef236333'
 
 #Payment Cancellation 
 payment_cancellation = picpay.payments_cancellations(reference_id, authorization_id)
-payment_request.status
+payment_cancellation.status
 # => 200
-payment_request.headers
+payment_cancellation.headers
 # => {"server"=>"app.picpay.com", "content-type"=>"application/json; charset=utf-8"...
-payment_request.body
+payment_cancellation.body
 # => "{referenceId: "102030"...
 
 # Payment Status
 payment_status = picpay.payments_status(reference_id)
-payment_request.status
+payment_status.status
 # => 200
-payment_request.headers
+payment_status.headers
 # => {"server"=>"app.picpay.com", "content-type"=>"application/json; charset=utf-8"...
-payment_request.body
+payment_status.body
 # => "{referenceId: "102030"...
 ```
 
