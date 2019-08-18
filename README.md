@@ -1,5 +1,6 @@
 # PicPay - E-commerce Public API
 
+[![Gem Version](https://badge.fury.io/rb/picpay.svg)](https://badge.fury.io/rb/picpay)
 [![Build Status](https://travis-ci.org/gilcierweb/picpay.svg?branch=master)](https://travis-ci.org/gilcierweb/picpay)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8ae01e6d34f3aaf85132/maintainability)](https://codeclimate.com/github/gilcierweb/picpay/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/8ae01e6d34f3aaf85132/test_coverage)](https://codeclimate.com/github/gilcierweb/picpay/test_coverage)
