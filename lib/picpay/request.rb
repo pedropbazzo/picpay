@@ -25,7 +25,6 @@ module Picpay
     
     def payments
       begin
-        puts api_url
         response = Faraday.post(api_url, data_payment, headers)
         response
       rescue Faraday::Error::ConnectionFailed => error

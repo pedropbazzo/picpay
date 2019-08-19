@@ -106,7 +106,7 @@ payment_status.body
 }
 ```
 
-## Example of Payment Reponse (JSON)
+## Example of Payment Response (JSON)
 
 ```json
 {
@@ -134,7 +134,7 @@ payment_status.body
 }
 ```
 
-## Example of Payment Cancellation Reponse (JSON)
+## Example of Payment Cancellation Response (JSON)
 
 ```json
 {
@@ -152,7 +152,7 @@ payment_status.body
 get https://appws.picpay.com/ecommerce/public/payments/{referenceId}/status
 ```
 
-## Example of Payment Status Reponse (JSON)
+## Example of Payment Status Response (JSON)
 
 ```json
 {
@@ -168,7 +168,7 @@ get https://appws.picpay.com/ecommerce/public/payments/{referenceId}/status
 ```shell
 post http://www.sualoja.com.br/callback
 ```
-## Example of Payment Notification Reponse (JSON)
+## Example of Payment Notification Response (JSON)
 
 ```json
 {
